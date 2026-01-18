@@ -11,6 +11,11 @@
       "name": "todo-enforcer",
       "source": "./todo-enforcer",
       "description": "Enforces all TODO items are completed before Claude can stop working"
+    },
+    {
+      "name": "comment-checker",
+      "source": "./comment-checker",
+      "description": "Detects and warns about unnecessary comments in code changes, encouraging self-documenting code"
     }
   ]
 }
