@@ -6,5 +6,11 @@
   "owner": {
     "name": "PND"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "todo-enforcer",
+      "source": "./todo-enforcer",
+      "description": "Enforces all TODO items are completed before Claude can stop working"
+    }
+  ]
 }

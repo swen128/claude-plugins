@@ -1,0 +1,9 @@
+{
+  "name": "todo-enforcer",
+  "description": "Enforces all TODO items are completed before Claude can stop working",
+  "version": "1.0.0",
+  "author": {
+    "name": "PND"
+  },
+  "keywords": ["todo", "enforcement", "workflow", "productivity"]
+}
