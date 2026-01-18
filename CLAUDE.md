@@ -15,11 +15,20 @@ This is a Claude Code plugin marketplace repository. It serves as a collection o
 - https://code.claude.com/docs/en/plugin-marketplaces.md
 - https://code.claude.com/docs/en/plugins-reference.md
 
+If the plugin in question involves Hooks or Slash Commands, you must read the respective documents as well:
+
+- https://code.claude.com/docs/en/hooks.md
+- https://code.claude.com/docs/en/slash-commands.md
+
 ### Testing Plugins Locally
+
+Whenever you develop a plugin, you MUST test it end-to-end.
 
 ```bash
 bun scripts/test-plugin.ts ./path-to-plugin -p "prompt..."
 ```
+
+You MUST iterate until you are absolutely sure the plugin works corectly.
 
 ### Plugin Structure
 
