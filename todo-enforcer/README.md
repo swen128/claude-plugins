@@ -1,6 +1,6 @@
 # todo-enforcer
 
-Blocks Claude from stopping until all TODO items are completed.
+Blocks Claude from stopping until all TODO items and Tasks are completed.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Blocks Claude from stopping until all TODO items are completed.
 
 **Claude** tries to stop:
 
-I've completed the email validation. That should cover the basic—
+> I've completed the email validation. That should cover the basic—
 
 **Hook output**:
 
@@ -29,4 +29,4 @@ I've completed the email validation. That should cover the basic—
 
 **Claude** corrects:
 
-You're right, I still have incomplete todos. Let me continue with the password strength check and error messages before stopping.
+> You're right, I still have incomplete todos. Let me continue with the password strength check and error messages before stopping.
