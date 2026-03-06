@@ -1,0 +1,9 @@
+{
+  "name": "ultra-debug",
+  "description": "Find the root cause of a production bug with parallel investigating agents and evidence-backed reports",
+  "version": "1.0.0",
+  "author": {
+    "name": "swen128"
+  },
+  "keywords": ["debug", "root-cause-analysis", "agents", "investigation", "adversarial"]
+}
