@@ -1,0 +1,9 @@
+{
+  "name": "ci-watcher-channel",
+  "description": "GitHub CI failure watcher channel — polls your open PRs and pushes failure notifications into Claude Code sessions",
+  "version": "0.1.0",
+  "author": {
+    "name": "swen128"
+  },
+  "keywords": ["ci", "github", "channel", "notifications", "ci-failures"]
+}
