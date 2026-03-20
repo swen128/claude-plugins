@@ -18,6 +18,12 @@
       "description": "Detects and warns about unnecessary comments in code changes, encouraging self-documenting code"
     },
     {
+      "name": "ci-watcher-channel",
+      "source": "./ci-watcher-channel",
+      "description": "GitHub CI failure watcher channel — polls your open PRs and pushes failure notifications into Claude Code sessions",
+      "version": "0.1.0"
+    },
+    {
       "name": "ultra-debug",
       "source": "./ultra-debug",
       "description": "Find the root cause of a production bug with parallel investigating agents and evidence-backed reports"
