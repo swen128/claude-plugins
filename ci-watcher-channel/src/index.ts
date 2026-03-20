@@ -24,7 +24,7 @@ async function detectNewFailures(): Promise<FailedRun[]> {
     const checks = await getPRChecks(pr.number)
     const newlyFailed = checks.filter(
       (c) =>
-        c.conclusion === "failure" &&
+        c.state === "FAILURE" &&
         !seenFailures.has(failureKey(pr.number, c.name)),
     )
 

@@ -9,8 +9,7 @@ export interface PullRequest {
 
 export interface CheckRun {
   name: string
-  status: string
-  conclusion: string
+  state: string
   detailsUrl: string
 }
 
@@ -28,20 +27,18 @@ export async function listMyOpenPRs(): Promise<PullRequest[]> {
 
 export async function getPRChecks(prNumber: number): Promise<CheckRun[]> {
   const result =
-    await $`gh pr checks ${prNumber} --json name,state,conclusion,detailsUrl`.quiet()
+    await $`gh pr checks ${prNumber} --json name,state,link`.quiet()
 
   const raw = JSON.parse(result.stdout.toString()) as Array<{
     name: string
     state: string
-    conclusion: string
-    detailsUrl: string
+    link: string
   }>
 
   return raw.map((c) => ({
     name: c.name,
-    status: c.state,
-    conclusion: c.conclusion,
-    detailsUrl: c.detailsUrl,
+    state: c.state,
+    detailsUrl: c.link,
   }))
 }
 
