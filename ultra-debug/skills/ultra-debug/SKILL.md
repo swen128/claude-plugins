@@ -123,7 +123,7 @@ After all agents report their final assessments:
 2. Determine the consensus:
    - If one hypothesis **SURVIVED** the critic's challenges: status = **CONFIRMED**
    - If multiple survived or none did: status = **INCONCLUSIVE**
-3. Write the report to `.claude/works/ultra-debug-<name>/report.md`
+3. Write the report to `.claude-works/ultra-debug-<name>/report.md`
 4. Present the report to the user
 
 ## Report Template
