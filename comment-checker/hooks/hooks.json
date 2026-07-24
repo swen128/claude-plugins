@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/check-comments.sh"
+            "command": "command -v bun >/dev/null 2>&1 || exit 0; exec bun \"${CLAUDE_PLUGIN_ROOT}/scripts/check-comments.ts\""
           }
         ]
       }

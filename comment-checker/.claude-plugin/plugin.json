@@ -1,7 +1,7 @@
 {
   "name": "comment-checker",
   "description": "Detects and warns about unnecessary comments in code changes, encouraging self-documenting code",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": {
     "name": "PND"
   },

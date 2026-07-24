@@ -1,0 +1,7 @@
+{
+  "name": "comment-checker",
+  "private": true,
+  "dependencies": {
+    "@vscode/tree-sitter-wasm": "^0.3.1"
+  }
+}
